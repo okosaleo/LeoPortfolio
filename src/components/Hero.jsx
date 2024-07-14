@@ -16,11 +16,11 @@ export default function Hero() {
   return (
     <div className='bg-[#0F0F0F] w-full h-[100vh] flex flex-col items-center'>
       <div className=" flex items-center relative justify-evenly">
-        <div className=" md:w-1/3 w-50vh">
+        <div className=" md:w-1/3 w-70vh">
         <Lottie animationData={kimetsu}/>
         </div>
         <div className=" z-10 absolute ">
-         <h1 className=" font-Sunage  md:text-[7rem] text-[1.5rem] text-[#fbfbfb]">Lenny The Dev</h1>
+         <h1 className=" font-Sunage  md:text-[7rem] text-[2.2rem] text-[#fbfbfb]">Lenny The Dev</h1>
          </div>
       </div>
        <div className=" flex w-full justify-evenly items-center md:flex-row flex-col md:gap-0 gap-3">
@@ -29,7 +29,7 @@ export default function Hero() {
             <hr className=" w-full border-[2px]" />
           </div>
          <div className=" w-1/5 md:flex-none flex justify-center items-center">
-          <button className=' bg-[#FBFBFB] text-[#0F0F0F] font-Sunage md:w-[270px] w-[250px] md:text-[1.8rem] text-[0.9rem] rounded-lg flex justify-evenly items-center' onMouseEnter={() => setiscontactEntered(true)}
+          <button className=' bg-[#FBFBFB] text-[#0F0F0F] font-Sunage md:w-[270px] w-[400px] md:text-[2.1rem] text-[0.9rem] rounded-lg flex justify-evenly items-center' onMouseEnter={() => setiscontactEntered(true)}
            onMouseLeave={() => setiscontactEntered(false)}><span className="relative flex overflow-hidden">{splitStringRegex('Contact Me').map((character, index) => (<span key={index} className=" relative">
            <span style={getContactStyles(contactEntered)} className=" inline-block whitespace-pre last:absolute last:top-full last:w-full last:left-0 transition-transform duration-[.5s]">{character}</span>
            <span style={getContactStyles(contactEntered)} className=" inline-block whitespace-pre last:absolute last:top-full last:w-full last:left-0 transition-transform duration-[.5s]">{character}</span>
