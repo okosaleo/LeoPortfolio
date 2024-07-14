@@ -11,7 +11,7 @@ export default function Hero() {
         <Lottie animationData={kimetsu}/>
         </div>
         <div className=" z-10 absolute">
-         <h1 className=" font-Sunage text-[7rem] text-[#fbfbfb]">Lenny The Dev</h1>
+         <h1 className=" font-Sunage  md:text-[7rem] text-[1rem] text-[#fbfbfb]">Lenny The Dev</h1>
          </div>
         </div>
     </div>
