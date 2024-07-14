@@ -10,7 +10,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false)
-    }, 4500)
+    }, 4800)
   }, [])
   if (loading) {
     return <Loader />
