@@ -32,21 +32,21 @@ export default function Loader() {
   return (
     <div className=" bg-[#0f0f0f] overflow-hidden" ref={opening}>
     <div className=" relative w-full h-screen overflow-hidden "  ref={container}>
-      <div className=" relative w-full h-screen flex justify-center items-center font-Humane text-[6.2rem] text-[#fbfbfb]" >
+      <div className=" relative w-full h-screen flex justify-center items-center font-Sunage text-[2.5rem] text-[#fbfbfb]" >
         <div className=" relative">
           <div className=" relative top-0" ref={letter1} id='letter'><span className="">LEONARD&nbsp;</span>
         </div>
-          <div className=" before:content before:absolute before:top-[120px] before:left-[-40px] before:w-[500px] before:h-[100px] before:bg-[#0f0f0f] before:animate-fadeOut animation-delay-2000"></div>
+          <div className=" before:content before:absolute before:top-[100px] before:left-[-40px] before:w-[500px] before:h-[120px] before:bg-[#0f0f0f] before:animate-fadeOut animation-delay-2000"></div>
         </div>
         <div className=" relative">
           <div className=" relative top-0" ref={letter2}><span>THE&nbsp;</span>
           </div>
-          <div className=" bg-[#0f0f0f] before:content before:absolute before:top-[120px] before:left-[-40px] before:w-[500px] before:h-[100px] before:bg-[#0f0f0f] before:animate-fadeOut animation-delay-2000"></div>
+          <div className=" bg-[#0f0f0f] before:content before:absolute before:top-[100px] before:left-[-40px] before:w-[500px] before:h-[100px] before:bg-[#0f0f0f] before:animate-fadeOut animation-delay-2000"></div>
         </div>
         <div className=" relative">
           <div className="relative top-0" ref={letter3}><span>DEVELOPER&nbsp;</span>
           </div>
-          <div className="bg-[#0f0f0f] before:content before:absolute before:top-[120px] before:left-[-40px] before:w-[500px] before:h-[100px] before:bg-[#0f0f0f] before:animate-fadeOut animation-delay-2000"></div>
+          <div className="bg-[#0f0f0f] before:content before:absolute before:top-[100px] before:left-[-40px] before:w-[500px] before:h-[100px] before:bg-[#0f0f0f] before:animate-fadeOut animation-delay-2000"></div>
         </div>
       </div>
     </div>

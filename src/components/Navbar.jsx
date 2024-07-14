@@ -9,11 +9,11 @@ export default function Navbar() {
     transform: `translateY(${homeEntered ? "-100%" : "0%"})`,
   })
   return (
-    <div className=" flex items-center justify-between px-[60px] py-2">
-      <div className=" flex items-center justify-center relative " >
-        <span className=" font-Sunage text-[1.2em] text-[#fbfbfb]">LennyTheDev</span>
+    <div className=" flex items-center justify-between ">
+      <div className=" flex items-center justify-center relative p-2 " >
+        <span className=" font-Sunage text-[1.2rem] text-[#fbfbfb]">LennyTheDev</span>
       </div>
-        <div  className=" text-[#fbfbfb]">
+        <div  className=" text-[#fbfbfb] p-2">
         <ul className=" flex justify-between font-Sunage text-[1.2rem] font-light gap-6">
             <li  
             onMouseEnter={() => isProjectsEntered(true)}
