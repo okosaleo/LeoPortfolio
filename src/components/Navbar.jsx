@@ -10,7 +10,7 @@ export default function Navbar() {
   })
   return (
     <div className=" flex items-center justify-between ">
-      <div className=" flex items-center justify-center relative p-2 " >
+      <div className=" flex items-center justify-center relative p-2 cursor-pointer " >
         <span className=" font-Sunage md:text-[1.2rem] text:[0.9rem] text-[#fbfbfb]">LennyTheDev</span>
       </div>
         <div  className=" text-[#fbfbfb] p-2">
