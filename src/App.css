@@ -13,7 +13,7 @@
     font-family: 'Sunage';
     font-style: normal;
     font-display: swap;
-    src: url(/Borned.otf) format('opentype');
+    src: url(/Borned.woff2) format('woff2');
   }
 }
 

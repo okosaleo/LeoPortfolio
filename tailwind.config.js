@@ -8,7 +8,7 @@ export default {
   theme: {
     fontFamily: {
       Humane: ['Humane', 'sans-serif'],
-      Sunage: ['Sunage', 'sans-serif'],
+      Sunage: ['Sunage'],
     },
     extend: {
       boxShadow: {

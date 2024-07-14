@@ -32,7 +32,7 @@ export default function Loader() {
   return (
     <div className=" bg-[#0f0f0f] overflow-hidden" ref={opening}>
     <div className=" relative w-full h-screen overflow-hidden "  ref={container}>
-      <div className=" relative w-full h-screen flex justify-center items-center font-Sunage text-[2.5rem] text-[#fbfbfb]" >
+      <div className=" relative w-full h-screen flex justify-center items-center font-Sunage text-[2rem] text-[#fbfbfb]" >
         <div className=" relative">
           <div className=" relative top-0" ref={letter1} id='letter'><span className="">LEONARD&nbsp;</span>
         </div>
