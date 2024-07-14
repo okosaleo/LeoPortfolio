@@ -30,7 +30,7 @@ export default function Loader() {
         })
       })
   return (
-    <div className=" bg-[#0f0f0f]" ref={opening}>
+    <div className=" bg-[#0f0f0f] overflow-hidden" ref={opening}>
     <div className=" relative w-full h-screen overflow-hidden "  ref={container}>
       <div className=" relative w-full h-screen flex justify-center items-center font-Humane text-[6.2rem] text-[#fbfbfb]" >
         <div className=" relative">
