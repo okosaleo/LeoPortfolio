@@ -11,10 +11,10 @@ export default function Navbar() {
   return (
     <div className=" flex items-center justify-between ">
       <div className=" flex items-center justify-center relative p-2 " >
-        <span className=" font-Sunage md:text-[1.2rem] text:[0.4rem] text-[#fbfbfb]">LennyTheDev</span>
+        <span className=" font-Sunage md:text-[1.2rem] text:[0.9rem] text-[#fbfbfb]">LennyTheDev</span>
       </div>
         <div  className=" text-[#fbfbfb] p-2">
-        <ul className=" flex justify-between font-Sunage md:text-[1.2rem] text-[0.4rem] font-light gap-6">
+        <ul className=" flex justify-between font-Sunage md:text-[1.2rem] text-[0.9rem] font-light gap-6">
             <li  
             onMouseEnter={() => isProjectsEntered(true)}
             onMouseLeave={() => isProjectsEntered(false)} className=" cursor-pointer">
