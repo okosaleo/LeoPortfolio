@@ -14,19 +14,19 @@ export default function Hero() {
  
 
   return (
-    <div className='bg-[#0F0F0F] w-full h-[100vh] flex flex-col items-center'>
+    <div className='bg-[#0F0F0F] w-full md:h-[90vh] h-[73vh] flex flex-col items-center'>
       <div className=" flex items-center relative justify-evenly">
         <div className=" md:w-1/3 w-70vh">
         <Lottie animationData={kimetsu}/>
         </div>
-        <div className=" z-10 absolute md:mt-0 mt-[270px] ">
+        <div className=" z-10 absolute md:mt-0 mt-[350px] ">
          <h1 className=" font-Sunage  md:text-[7rem] text-[1.8rem] text-[#fbfbfb]">Lenny The Dev</h1>
          </div>
       </div>
-       <div className=" flex w-full justify-evenly items-center md:flex-row flex-col md:gap-0 gap-3 md:mt-0 mt-20">
-       <Lottie animationData={scroll} className=" w-[11vw] md:block hidden" />
+       <div className=" flex w-full justify-evenly items-center md:flex-row flex-col-reverse md:gap-0 gap-7 md:mt-0 mt-10">
+       <Lottie animationData={scroll} className=" md:w-[11vw] w-16 " />
          <div className=" md:w-2/3 w-4/5"> 
-            <hr className=" w-full border-[2px]" />
+            <hr className=" w-full border-[2px] md:block hidden" />
           </div>
          <div className=" md:w-1/5 w-3/4 md:flex-none flex justify-center items-center">
           <button className=' bg-[#FBFBFB] text-[#0F0F0F] font-Sunage md:w-[270px] w-[260px] md:text-[1.8rem] text-[1.9rem] rounded-lg flex justify-evenly items-center' onMouseEnter={() => setiscontactEntered(true)}
