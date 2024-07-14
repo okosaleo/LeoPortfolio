@@ -24,7 +24,7 @@ export default function Hero() {
          </div>
       </div>
        <div className=" flex w-full justify-evenly items-center md:flex-row flex-col-reverse md:gap-0 gap-7 md:mt-0 mt-[450px">
-       <Lottie animationData={scroll} className=" md:w-[11vw] w-16 " />
+       <Lottie animationData={scroll} className=" md:w-[11vw] w-24 " />
          <div className=" md:w-2/3 w-4/5"> 
             <hr className=" w-full border-[2px] md:block hidden" />
           </div>
