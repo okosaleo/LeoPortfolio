@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Humane';
+    font-style: normal;
+    font-display: swap;
+    src: url(/Humane-Regular.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: 'Sunage';
+    font-style: normal;
+    font-display: swap;
+    src: url(/Borned.otf) format('opentype');
+  }
+}
+
+
+@layer utilities {
+  .animation-delay-75 {
+    animation-delay: 75ms;
+  }
+  .animation-delay-500 {
+    animation-delay: 500ms;
+  }
+  .animation-delay-1000 {
+    animation-delay: 1s;
+  }
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+}
