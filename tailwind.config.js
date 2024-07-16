@@ -9,6 +9,7 @@ export default {
     fontFamily: {
       Humane: ['Humane', 'sans-serif'],
       Sunage: ['Sunage'],
+      Born: ['Born'],
     },
     extend: {
       boxShadow: {

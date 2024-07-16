@@ -15,6 +15,12 @@
     font-display: block;
     src: url(/Borned.woff2) format('woff2');
   }
+  @font-face {
+    font-family: 'Born';
+    font-style: normal;
+    font-display: block;
+    src: url(/Suntage.woff2) format('woff2');
+  }
 }
 
 @layer base {
