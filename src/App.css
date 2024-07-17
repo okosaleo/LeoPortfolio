@@ -4,12 +4,6 @@
 
 @layer base {
   @font-face {
-    font-family: 'Humane';
-    font-style: normal;
-    font-display: swap;
-    src: url(/Humane-Regular.woff2) format('woff2');
-  }
-  @font-face {
     font-family: 'Sunage';
     font-style: normal;
     font-display: block;

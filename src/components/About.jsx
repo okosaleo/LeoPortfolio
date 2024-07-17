@@ -1,11 +1,11 @@
 import gsap from "gsap"
 import { useGSAP } from "@gsap/react"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
-import { useRef } from "react"
+import { useRef, memo } from "react"
 import SplitType from 'split-type'
 
 
-export default function About() {
+const About = memo(function About() {
     gsap.registerPlugin(useGSAP, ScrollTrigger)
     const mmm = useRef()
     const dyy = useRef()
@@ -30,7 +30,6 @@ export default function About() {
         gsap.from(text.chars, {
             scrollTrigger: {
                 trigger: revealCont,
-                markers: true,
                 scrub: true,
                 end: "center"
             },
@@ -42,7 +41,7 @@ export default function About() {
     
 
   return (
-        <div ref={mmm} className=" flex" id="mmm">
+        <div ref={mmm} className="w-full" id="mmm">
         <div className=" h-max w-full text-[200px] flex flex-col justify-center items-center" ref={dyy}>
             <div >
             <h1 className=" text-[70px] font-Born">ABOUT ME</h1>
@@ -53,5 +52,7 @@ export default function About() {
         </div>
         </div>
   )
-}
+})
 
+
+export default About

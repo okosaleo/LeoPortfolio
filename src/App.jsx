@@ -1,26 +1,25 @@
-import { useEffect, useState } from "react";
+
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import "./index.css";
 import './App.css'
-import Loader from './components/Loader'
 import Home from "./Pages/Home";
 
 
 function App() {
-  const [loading, setLoading] = useState(true)
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Home />
+    },
+  ]);
   
-  useEffect(() => {
-    setTimeout(() => {
-      setLoading(false)
-    }, 5000)
-  }, [])
-  if (loading) {
-    return <Loader />
-}
+  
  
   return (
-    <div className='bg-[#0F0F0F]'>
-    <Home />
-    </div>
-    
+    <RouterProvider router={router} />
   )
 }
 
